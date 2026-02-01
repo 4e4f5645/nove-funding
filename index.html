@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>新衣裝募資</title>
+
+<style>
+body{
+  margin:0;
+  background:#f6f2ee;
+  display:flex;
+  justify-content:center;
+}
+
+.poster-wrap{
+  position:relative;
+  width:900px;     /* 海報顯示寬度，之後只要改這個 */
+}
+
+.poster-wrap img{
+  width:100%;
+  display:block;
+}
+
+/* ===== 透明點擊區 ===== */
+.hotspot{
+  position:absolute;
+  display:block;
+}
+
+/* 下面這三組是「對齊文字位置」的關鍵 */
+
+/* 綠界 */
+.ecpay{
+  left:8%;
+  bottom:3.5%;
+  width:26%;
+  height:7%;
+}
+
+/* 確認 */
+.confirm{
+  left:37%;
+  bottom:3.5%;
+  width:26%;
+  height:7%;
+}
+
+/* 表單 */
+.form{
+  left:66%;
+  bottom:3.5%;
+  width:26%;
+  height:7%;
+}
+</style>
+</head>
+
+<body>
+
+<div class="poster-wrap">
+  <img src="funding.png" alt="新衣裝募資">
+
+  <!-- 綠界 -->
+  <a class="hotspot ecpay"
+     href="https://payment.ecpay.com.tw/Broadcaster/Donate/25555E7A5E08240891E886D9C96EDA0C"
+     target="_blank"></a>
+
+  <!-- 確認 -->
+  <a class="hotspot confirm"
+     href="https://docs.google.com/spreadsheets/d/1ax2pSDblhboCgz6aRkC7uZz8Hyi7iXoSySZy21yDnQc/edit?usp=sharing"
+     target="_blank"></a>
+
+  <!-- 表單 -->
+  <a class="hotspot form"
+     href="https://docs.google.com/forms/d/e/1FAIpQLSdsyvTHVo68ki5VchosWWyMW5QahMF0eODMxc1iZfWvb77FXA/viewform?usp=header"
+     target="_blank"></a>
+
+</div>
+
+</body>
+</html>
